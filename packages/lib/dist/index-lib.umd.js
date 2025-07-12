@@ -1,0 +1,1 @@
+(function(e,n){typeof exports=="object"&&typeof module<"u"?n(exports):typeof define=="function"&&define.amd?define(["exports"],n):(e=typeof globalThis<"u"?globalThis:e||self,n(e.muggleLib={}))})(this,function(e){"use strict";function n(i,t){return i+t}function o(i,t){return i-t}console.log("lib"),e.add=n,e.minus=o,Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

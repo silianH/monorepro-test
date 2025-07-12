@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "composite": true /* 引用的底层项目的tsconfig.json必须启用composite属性 */,
+    "jsx": "react-jsx" /* Specify what JSX code is generated. */
+  }
+}

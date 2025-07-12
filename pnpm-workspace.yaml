@@ -1,0 +1,5 @@
+packages:
+  - 'apps/**' # 包含 apps 下的‌直接子目录
+  - 'packages/*'
+  - 'packages/**' # 包含 apps 下的‌直接子目录
+  - '!**/test/**' # 排除测试目录
