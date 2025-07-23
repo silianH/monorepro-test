@@ -28,6 +28,8 @@ jobs:
           node-version: 18.12.0
 
       - name: install and build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
         run: |
           npm i -g pnpm
           pnpm install
