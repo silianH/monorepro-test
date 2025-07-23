@@ -5,7 +5,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - master
+      - main
 
 # 工作流任务
 jobs:
@@ -35,7 +35,7 @@ jobs:
       # 打包完成后部署
       # 这里使用 https://github.com/marketplace/actions/deploy-to-github-pages
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.1.3
+        uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
           # 希望部署到的分支，gh-pages 或者 gh-pages，默认 gh-pages
           # 会在 项目 → Settings → Pages → Branch 里面创建关联分支
