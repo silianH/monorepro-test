@@ -1,6 +1,13 @@
 {
   "compilerOptions": {
-    "composite": true /* 引用的底层项目的tsconfig.json必须启用composite属性 */,
-    "jsx": "react-jsx" /* Specify what JSX code is generated. */
+    "baseUrl": ".",
+    // 解决打包时的 This module is declared with 'export =' 报错
+    "allowSyntheticDefaultImports": true, // 方案2：允许合成默认导入
+    // "composite": true /* 引用的底层项目的tsconfig.json必须启用composite属性 */,
+    "jsx": "react-jsx" /* Specify what JSX code is generated. */,
+    "types": ["vitest/globals"],
+    "paths": {
+      "muggle-hooks": ["./src/index"] // 根据实际路径调整
+    }
   }
 }

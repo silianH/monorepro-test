@@ -4,8 +4,9 @@
  */
 
 import React from 'react';
-import useToggle from '..';
-// import useToggle from 'muggle-hooks';
+// import useToggle from '..';
+// 需要去根目录tsconfig.json 中的 paths 配置好对应的目录
+import { useToggle } from 'muggle-hooks';
 
 export default () => {
   const [state, { toggle, setLeft, setRight }] = useToggle();

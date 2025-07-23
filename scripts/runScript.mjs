@@ -12,7 +12,7 @@ import path from 'path';
 const runScript = (scriptName, pkgLocation, args = '') => {
   // 读取并解析 package.json 文件
   const pkgJson = JSON.parse(readFileSync(`${pkgLocation}/package.json`, 'utf-8'));
-  console.log(kleur.bold('来到runScript'), pkgJson.scripts[scriptName]);
+  console.log(kleur.bold('来到runScript'), pkgJson.scripts);
   // 检查是否存在指定的脚本
   if (pkgJson.scripts && pkgJson.scripts[scriptName]) {
     console.log(pkgJson.scripts[scriptName]); // 输出脚本内容
