@@ -10,6 +10,7 @@ export default {
         type: 'none', //all 前者速度较慢，但可规避常见的兼容性等问题，后者反之。
         exclude: [],
     },
+    publicPath: './',
     history: { type: 'hash' },
     // 配置额外的 babel 插件。
     extraBabelPlugins: [
