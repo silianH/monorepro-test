@@ -1,7 +1,7 @@
 ---
 title: 首页
 hero:
-  image: /react.png
+  image: ./react.png
   desc: React 业务通用 Hooks 库
   actions:
     - text: 介绍
