@@ -30,6 +30,8 @@ export default {
     // 是否启用按需加载，即是否把构建产物进行拆分，在需要的时候下载额外的 JS 再执行。
     dynamicImport: {},
     manifest: {},
+    logo: 'logo.png',
+    favicon: 'logo.ico',
     hash: true,
     // 文档中代码功能演示 通过alias 找到资源 进行调用
     // 配置别名，对引用路径进行映射。
