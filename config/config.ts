@@ -1,4 +1,3 @@
-import { title } from 'process';
 import { menus } from './hooks';
 
 // const packages = require('../packages/hooks/package.json');
